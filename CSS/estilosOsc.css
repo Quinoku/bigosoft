@@ -7,12 +7,13 @@
 body{       
     width: 100%;
     height: 100%;
-    background-color: whitesmoke; 
+    background-color: rgb(52, 52, 52); 
+    color:#ffffff;
 }
 nav{
     height: 60px;
-    background-color: #dff7e5;
-    box-shadow: 1px 1px 5px #263238;
+    background-color: #305239;
+    box-shadow: 1px 1px 5px #000000;
     box-sizing: border-box;
     min-width: max-content;
     display: block;
@@ -26,11 +27,11 @@ nav img{
     float: left;
     margin-right: 15px;
     margin-left: 20px;
-    background-color: #dff7e5;
+    background-color: #305239;
 }
 nav a{
     line-height: 60px;
-    background-color: #dff7e5;
+    background-color: #305239;
     border-radius: 10px;
     margin-top: 10px;
     padding-left: 16px;
@@ -41,16 +42,16 @@ nav a{
     font-family: 'Roboto', sans-serif;
     font-size: large;
     font-weight: bold;
-    color: #263238;
+    color: #ffffff;
 }
 nav a:hover{
-    background-color: #92e3a9;
+    background-color: #0f742b;
     color: whitesmoke;
     font-size: large;
     font-weight: bolder;
 }
 nav a:active{
-    background-color: #65d083;
+    background-color: #0f742b;
     color: whitesmoke;
     font-size: large;
     font-weight: bolder;
@@ -82,7 +83,7 @@ div.cajafooter{
     margin: auto;
     position: flex;
     bottom: 0;
-    background: #dfdde2;
+    background: #305239;
     border-radius: 30px;
     padding-left: 16px;
     padding-right: 16px;
@@ -96,9 +97,7 @@ div.texto{
 }
 a{
     text-decoration: none;
-}
-a:visited{
-    color: #263238;
+    color: #a1b5bf;
 }
 div.facebook{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -177,11 +176,11 @@ p.subseccion{
 }
 .conocer{
     text-decoration: none;
-    color: #1b1b1b;
+    color: #ffffff;
     font-weight: bold;
 }
 .conocer:hover{
-    color: #263238;
+    color: #c7cfd3;
     text-transform: uppercase;
     lighting-color: #92e3a9;
 } 
@@ -190,7 +189,7 @@ p.subseccion{
 div.caja1{
     width: 900px;
     border: 2px  #65d083;
-    box-shadow: 2px 2px 16px #263238;
+    box-shadow: 2px 2px 16px #a6b8c1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +200,7 @@ div.caja1{
     text-align: justify;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
-    color: #1b1b1b;
+    color: #ffffff;
 }
 
 /* Afecta a la página ¿Quiénes somos? */
